@@ -1,0 +1,428 @@
+.box{
+ border:0px solid grey;
+ width:320px;
+ height:350px;  
+ border-radius:10px; 
+}
+
+.box-img{
+    width:320px;
+    height:270px;
+    border-radius: 10px;
+    object-fit:cover;
+}
+
+.f1{
+    font-size:15px;
+    color:black;
+    font-family:arial;
+}
+
+.f2{
+    font-size:13px;
+    font-family:arial;
+    color:grey;
+}
+
+.f3{
+    font-family:arial;
+    color:black;
+    font-size:12px;
+}
+
+.flexbox{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+
+.text{
+    font-size:35px;
+    color:black;
+    font-family:sans-serif;
+    padding-left:55px;
+}
+
+
+.bottom{
+    border:none solid grey;
+    width:1550px;
+    height:700px;  
+    background-color:rgba(208, 207, 207, 0.308);
+    padding-left:58px;
+    padding-top:45px;
+    
+}
+
+.flexbox1{
+    display:flex;
+    gap:27px;
+    flex-wrap:wrap;
+    justify-content:left;
+}
+
+
+
+.f4{
+    font-family:arial;
+    color:black;
+    font-size:25px;
+    
+}
+
+.f5{
+    font-family:arial;
+    color:black;
+    font-size:15px;
+}
+
+.icons-img1{
+    width:40px;
+    height:40px;
+}
+
+.scroll-container{
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    width: 92%;
+    margin: 0 auto
+}
+.flexbox2{
+    display:flex;
+    gap:60px;
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    scrollbar-width: none;
+    -ms-overflow-style:none;
+}
+
+.flexbox2::webkit-scrollbar{
+    display:none;
+}
+
+.scroll-container:hover .flexbox2{
+    overflow-x:scroll;
+}
+
+.flexbox2:hover::-webkit-scrollbar{
+    display:box;
+}
+    
+.arrow{
+    position:absolute;
+    width:30px;
+    height:30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    border: 0px solid grey;
+    z-index: 1;
+}
+
+.arrow-left {
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.arrow-right {
+    right: 0;
+     top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.logo{
+padding-left:70px;
+padding-top:none;
+width:120px;
+height:70px;
+
+}
+
+
+
+.table{
+     width:1500px;
+     position:sticky;
+}
+
+.img2{
+    width:20px;
+    height:20px;
+    padding-top:8px;
+}
+
+
+.f6{
+    font-size:20px;
+    color:black;
+}
+
+.f7{
+    font-size:17px;
+    color:black;
+}
+
+
+.img3{
+    width:55px;
+    height:35px;
+    border-radius:35px;
+    object-fit:cover;
+}
+
+.btn1{
+    border-radius:35px;
+    border-color: rgba(128, 128, 128, 0.519);
+    background-color: white;
+    width:80px;
+    height:47px;
+   
+}
+
+.btn2{
+    width:840px;
+    height:70px;
+    border-radius:50px;
+    background-color: white;
+    border-color:rgba(128, 128, 128, 0.197);
+   position:sticky;
+
+}
+
+.box1{
+    display:flex;
+    border:0px solid grey;
+    width:850px;
+    height:55px;  
+    border-radius:40px; 
+    padding-left:20px;
+    padding-top:15px;
+    position:relative;
+}
+
+.table1{
+    border:0px solid black;
+    width:800px;
+    position:absolute;
+}
+
+
+.f8{
+    font-size:13px;
+    color:black;
+    text-align: left;
+}
+
+
+.f9{
+    font-size:15px;
+    color:grey;
+}
+
+.hr{
+    color:rgba(128, 128, 128, 0.058);
+}
+
+.f10{
+    color:black;
+    font-size:10px;
+}
+
+.box-head{
+    position:relative;
+}
+
+.share{
+    position:absolute;
+    background-color:rgba(255, 255, 255, 0.901);
+    color:rgba(0, 0, 0, 0.678);
+    right: 10px;
+    top:10px;
+    padding: 6px 8px;
+    border-radius:20px;
+}
+
+.fixed{
+    position:fixed;
+}
+
+.live{
+    position:absolute;
+    background-color: rgba(255, 255, 255, 0.91);
+    color:black;
+    top:10px;
+    padding: 6px 13px;
+    margin-left:10px;
+    border-radius:15px;
+}
+
+.flexbox3{
+    display:flex;
+    margin-left:60px;
+    margin-top:20px;
+}
+
+
+.flexbox4{
+    display:flex;
+    gap:20px;
+    margin-left:60px;
+    margin-top:20px; 
+}
+
+.guest-fav{
+    position:absolute;
+    background-color: white;
+    color:black;
+    top:10px;
+    padding: 6px 13px;
+    margin-left:10px;
+    border-radius:15px;
+}
+
+.heart{
+    position:absolute;
+    background-color:rgba(255, 255, 255, 0.574);
+    color:rgba(0, 0, 0, 0.77);
+    right: 10px;
+    top:10px;
+    padding-bottom:8px;
+    padding-left:12px;
+    padding-top:10px;
+    padding-right:10px;
+    border-radius:20px;
+}
+
+.btn3{
+    
+    position:fixed;
+    bottom:10px;
+    width:160px;
+    height:50px;
+    background-color:black;
+    color:white;
+    border-radius:30px;
+    z-index:1000;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    gap:10px;
+    border: none;
+    font-size: 16px;
+}
+
+.btn3-img{
+    width:20px;
+    height:20px;
+    object-fit: cover;
+    border-radius:20px;
+}
+
+.flexbox5{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.flexbox6{
+    display:flex;
+    justify-content:space-between;
+}
+
+.box2-img{
+    width:12px;
+    height:12px;
+}
+
+
+.table2{
+    border:none solid black;
+    width:1400px;
+    height:210px;
+}
+
+.f12{
+    font-size:18px;
+    color:black;
+    font-family:calibri;
+}
+
+.f13{
+    font-size:15px;
+     color:rgba(0, 0, 0, 0.675);
+    font-family:sans-serif;
+}
+
+.box3{
+    border:none solid black;
+    width:15px;
+    height:25px;
+    align-items: center;
+    padding-top:7px;
+}
+
+.showmore-img{
+align-items: center;
+justify-content: hidden;
+}
+
+.flexbox7{
+    display:flex;
+    gap:3px;
+}
+
+.f14{
+    font-size:17px;
+    color:rgba(0, 0, 0, 0.729);
+    font-family:sans-serif;
+   
+}
+
+.f15{
+    font-size:17px;
+    color:black;
+    font-family:calibri;
+    font-weight:550;
+}
+
+.table3{
+    border:none solid black;
+    padding-top:30px;
+    padding-bottom:30px;
+    width:1600px;
+    height:270px;
+}
+
+.table4{
+    border:none solid black;
+    width:1400px;
+}
+
+.table5{
+    border:none solid black;
+    width:900px;
+   
+}
+
+
+.c-icon{
+    width:11px;
+    height:11px;
+}
+
+
+.dot{
+    border:1px solid balck;
+    text-align: center;
+    align-items: center;
+}
